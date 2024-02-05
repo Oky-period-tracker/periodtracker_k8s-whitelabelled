@@ -11,3 +11,9 @@ Search these yaml files for the following, and replace them with your actual val
 - database_host_ip_address
 - database_name
 - database_schema
+
+To create a random string for the `APPLICATION_SECRET`, use this command
+
+```bash
+openssl rand -base64 32
+```
